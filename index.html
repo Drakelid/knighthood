@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Monster Battle Extended</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Monster Battle Extended</h1>
+<div class="game-container">
+    <div class="player-info">
+        <h2>Player</h2>
+        <p>Level: <span id="player-level"></span></p>
+        <p>HP: <span id="player-hp"></span>/<span id="player-max-hp"></span></p>
+        <p>XP: <span id="player-xp"></span>/<span id="xp-to-level"></span></p>
+        <p>Gold: <span id="player-gold"></span></p>
+        <p>Potions: <span id="player-potions"></span></p>
+    </div>
+
+    <div class="monster-info">
+        <h2 id="monster-name"></h2>
+        <img id="monster-image" src="" alt="Monster" style="max-width: 200px;">
+        <p>HP: <span id="monster-hp"></span></p>
+    </div>
+
+    <div class="controls">
+        <button id="attack-btn">Attack</button>
+        <button id="special-attack-btn">Special Attack</button>
+        <button id="use-potion-btn">Use Potion</button>
+        <button id="run-btn">Run</button>
+        <button id="buy-potion-btn">Buy Potion (10 Gold)</button>
+        <p id="message"></p>
+    </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+    background: #efefef;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.game-container {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #333;
+    padding: 20px;
+}
+
+.player-info, .monster-info {
+    margin: 20px 0;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+#message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #cc0000;
+}

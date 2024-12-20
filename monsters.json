@@ -1,0 +1,45 @@
+{
+    "monsters": [
+      {
+        "name": "Goblin",
+        "hp": 30,
+        "attackMin": 4,
+        "attackMax": 6,
+        "xp": 10,
+        "gold": 5,
+        "specialChance": 0.1,
+        "image": "images/goblin.png"
+      },
+      {
+        "name": "Orc",
+        "hp": 45,
+        "attackMin": 6,
+        "attackMax": 9,
+        "xp": 20,
+        "gold": 10,
+        "specialChance": 0.15,
+        "image": "images/orc.png"
+      },
+      {
+        "name": "Troll",
+        "hp": 60,
+        "attackMin": 8,
+        "attackMax": 12,
+        "xp": 30,
+        "gold": 20,
+        "specialChance": 0.2,
+        "image": "images/troll.png"
+      },
+      {
+        "name": "Dragon",
+        "hp": 120,
+        "attackMin": 15,
+        "attackMax": 25,
+        "xp": 100,
+        "gold": 50,
+        "specialChance": 0.25,
+        "image": "images/dragon.png"
+      }
+    ]
+  }
+  
