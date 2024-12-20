@@ -1,6 +1,3 @@
-# Writing a README.md file for the knighthood project
-
-readme_content = """
 # Knighthood Game
 
 Welcome to the Knighthood game! This is a simple web-based game featuring exciting monsters and challenges.
